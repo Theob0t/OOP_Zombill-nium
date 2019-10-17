@@ -1,14 +1,37 @@
 # OOP_Zombillenium
 C# - Object Oriented and Interface Programming Project (2017-2018)
 
-Zombillénium est un parc d’attraction dans la région de Valenciennes. Cette société a été créée par le mystérieux S. Behemoth, qui en est le président. Elle possède aussi un certain nombre d’actionnaires, un capital de 2 000 000 d'euros, et elle se situe sur la Route du Marais Putride (D40), à Verchain-Maugré (59)1.
-C’est un parc qui a pour thème la frayeur : le but est de faire peur aux visiteurs. Le personnel est constitué de monstres et de sorciers. Parmi les monstres, on peut identifier plus précisément les zombies (les plus important en nombre) ; les vampires (les plus maléfiques) ; les démons (pouvant être très puissant) les loups-garous et les fantômes (ou encore « hommes » invisibles).
-La direction du parc est assurée par :
- Francis Von Bloodt, vampire, directeur d’exploitation
- Blaise Canilhac, loup-garou, directeur des Ressources humaines
- Rose Von Bloodt, vampire, directrice générale, femme de Francis.
- Yves Belbertel, « homme » invisible, directeur artistique, responsable sécurité avec l’aide de deux gardes minotaures.
- Deborah Malkiewicz, démon, directrice de la communication et de la formation
-Le personnel possède aussi un responsable syndical très actif, qui ne peut être licencié : Sirius Jefferson, squelette. Selon ses propres dires, il est le squelette d'un militant noir pacifiste mort sur la chaise électrique en Louisiane en 1956 ; mais il s’avère plus probable qu’il soit mort dans un accident de voiture en venant faire un concert à Zombillenium : il continue d’ailleurs à chanter dans le groupe « Les Zarpies », constituant l’un des spectacles proposés par le parc.
-Francis, le directeur d’exploitation, est très apprécié de ses employés. Il tente de maintenir une bonne ambiance parmi les employés, et avec les humains des villages environnants grâce à la première règle du règlement du parc, qui interdit aux employés du parc de tuer des humains, sous peine d’être immédiatement licencié. Malheureusement, cette règle n'est pas du goût du président, qui aimerait bien faire de plus gros bénéfices (en termes d’âmes), et profitant de la situation économique actuelle critique du parc, S. Béhémoth envisage de nommer un nouveau directeur d’exploitation, Bohémond Jaggar de Rochambeau, vampire de Louisiane et ex-propriétaire d'esclave, dont la première tâche serait d’annuler cette règle.
-Afin d’éviter cette extrémité, et la démission de Francis Von Bloodt, quelques employés (Sirius Jefferson, Aton Noudjemet (momie, ancien pharaon, âgé de 3368 ans), Gretchen Webb (sorcière anglaise, pourtant juste stagiaire), Aurélien Zahner (employé depuis peu de temps à Zombillenium) et Yves Belbertel ont décidé de faire appel à vous afin d’obtenir un logiciel de gestion du parc. En effet, actuellement la direction possède uniquement une liste (excel) contenant des membres du personnel et des attractions, absolument pas exhaustive, et n’a aucun moyen simple d’ajouter/enlever un membre du personnel de l’entreprise, d’obtenir la liste des éléments travaillant sur une attraction, le
+Zombillénium is an amusement park in Valenciennes area.
+
+The theme is fear: the aim is to frighten visitors. The staff is made up of monsters and wizards. Among the monsters, we can more precisely identify the zombies (the most important in number); the vampires (the most evil); the demons (which can be very powerful), the werewolves and the ghosts (or even invisible "men").
+
+GOAL OF THE PROJECT : Create a park management software that allows the employee to add/remove a staff member easily, check which attractions they are working on, the number of admission in any attractions, if it is open, in maintenance...
+
+RULES : 
+
+Each member of staff has :
+- a personnel number (5-digit integer)
+- an identity (surname, first name, gender)
+- possibly a position in the company (trade union delegate, trainee, director, etc.). 
+- There are wizards in the staff, who are characterized by a tattoo that determines their rank (novice / mega / giga / strata), and they also have a list of powers (e. g. stealing, lighting a fire, etc.) that they can enrich over time. 
+- The rest of the staff consists of monsters, who are assigned to an attraction, unless their functions occupy them 100%. 
+- They also have a "prize pool", a receptacle of points received (or withdrawn) that allows them to be classified among monsters. 
+- This prize pool is incremented or decremented according to the work, behavior, action of the monster concerned. It can allow him to obtain certain advantages depending on his value. 
+- Among monsters, demons have a force defined by an integer between 1 and 10 
+- Zombies can be bluish or greyish and are defined by a degree of decomposition, integer between 1 and 10 (skeletons have a degree of decomposition of 10). 
+- We know the cruelty index of werewolves (real between 0 and 4). 
+- Vampires have a luminosity index (real between 0 and 3, 3 being the very bright vampire). 
+- Ghost invisibility can be a valuable asset sometimes, and a ghost may therefore be required for a specific task depending on the needs.
+
+In order to obtain a beta version of the management software fairly quickly, it was decided to consider only 4 types of attractions: 
+- "RollerCoaster", have a category (sitting / inverted / bobsleigh), and are allowed from a minimum size and a minimum age. 
+- Shows, take place in a specified venue (Nergal, Leviathan, Kraken, etc.), have a number of seats and play at fixed times
+- "DarkRides", have a journey time, and they are done in vehicles (like the "ghost train") or on foot (like the "haunted mansion"). 
+- Shops, sell either souvenirs or cotton candy, or more generally food (sandwiches, drinks, ice cream, sweets, etc.).
+
+Each attraction has:
+- an identifier (3-digit integer) 
+- a name. 
+- We want to know at any time if it is open or closed
+- If it is in maintenance for how long. 
+- Maintenance can be a repair, a major cleaning, a refurbishment, a replenishment, etc. It also requires a minimum number of monsters to operate, which can be increased according to the number of visitors. It is also possible that they may need monsters with a special feature, or a particular type. 

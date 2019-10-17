@@ -1,2 +1,14 @@
-# OOP_Zombill-nium
+# OOP_Zombillenium
 C# - Object Oriented and Interface Programming Project (2017-2018)
+
+Zombillénium est un parc d’attraction dans la région de Valenciennes. Cette société a été créée par le mystérieux S. Behemoth, qui en est le président. Elle possède aussi un certain nombre d’actionnaires, un capital de 2 000 000 d'euros, et elle se situe sur la Route du Marais Putride (D40), à Verchain-Maugré (59)1.
+C’est un parc qui a pour thème la frayeur : le but est de faire peur aux visiteurs. Le personnel est constitué de monstres et de sorciers. Parmi les monstres, on peut identifier plus précisément les zombies (les plus important en nombre) ; les vampires (les plus maléfiques) ; les démons (pouvant être très puissant) les loups-garous et les fantômes (ou encore « hommes » invisibles).
+La direction du parc est assurée par :
+ Francis Von Bloodt, vampire, directeur d’exploitation
+ Blaise Canilhac, loup-garou, directeur des Ressources humaines
+ Rose Von Bloodt, vampire, directrice générale, femme de Francis.
+ Yves Belbertel, « homme » invisible, directeur artistique, responsable sécurité avec l’aide de deux gardes minotaures.
+ Deborah Malkiewicz, démon, directrice de la communication et de la formation
+Le personnel possède aussi un responsable syndical très actif, qui ne peut être licencié : Sirius Jefferson, squelette. Selon ses propres dires, il est le squelette d'un militant noir pacifiste mort sur la chaise électrique en Louisiane en 1956 ; mais il s’avère plus probable qu’il soit mort dans un accident de voiture en venant faire un concert à Zombillenium : il continue d’ailleurs à chanter dans le groupe « Les Zarpies », constituant l’un des spectacles proposés par le parc.
+Francis, le directeur d’exploitation, est très apprécié de ses employés. Il tente de maintenir une bonne ambiance parmi les employés, et avec les humains des villages environnants grâce à la première règle du règlement du parc, qui interdit aux employés du parc de tuer des humains, sous peine d’être immédiatement licencié. Malheureusement, cette règle n'est pas du goût du président, qui aimerait bien faire de plus gros bénéfices (en termes d’âmes), et profitant de la situation économique actuelle critique du parc, S. Béhémoth envisage de nommer un nouveau directeur d’exploitation, Bohémond Jaggar de Rochambeau, vampire de Louisiane et ex-propriétaire d'esclave, dont la première tâche serait d’annuler cette règle.
+Afin d’éviter cette extrémité, et la démission de Francis Von Bloodt, quelques employés (Sirius Jefferson, Aton Noudjemet (momie, ancien pharaon, âgé de 3368 ans), Gretchen Webb (sorcière anglaise, pourtant juste stagiaire), Aurélien Zahner (employé depuis peu de temps à Zombillenium) et Yves Belbertel ont décidé de faire appel à vous afin d’obtenir un logiciel de gestion du parc. En effet, actuellement la direction possède uniquement une liste (excel) contenant des membres du personnel et des attractions, absolument pas exhaustive, et n’a aucun moyen simple d’ajouter/enlever un membre du personnel de l’entreprise, d’obtenir la liste des éléments travaillant sur une attraction, le

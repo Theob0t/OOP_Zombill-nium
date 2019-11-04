@@ -5,7 +5,7 @@ Zombillénium is an amusement park in Valenciennes area.
 
 The theme is fear: the aim is to frighten visitors. The staff is made up of monsters and wizards. Among the monsters, we can more precisely identify the zombies (the most important in number); the vampires (the most evil); the demons (which can be very powerful), the werewolves and the ghosts (or even invisible "men").
 
-#*GOAL OF THE PROJECT* : Create a park management software that allows the employee to add/remove a staff member easily, check which attractions they are working on, the number of admission in any attractions, if it is open, in maintenance...#
+**GOAL OF THE PROJECT : Create a park management software that allows the employee to add/remove a staff member easily, check which attractions they are working on, the number of admission in any attractions, if it is open, in maintenance...**
 
 RULES : 
 
